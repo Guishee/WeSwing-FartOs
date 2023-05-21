@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/fondo"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/logoApp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo" />
+    <Button
+        android:id="@+id/botonLogin"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/rojo"
+        android:text="INICIAR SESIÓN"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/botonRegistro"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/rojo"
+        android:text="REGISTRO"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logoInsta"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/instagram"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/logoFacebook"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toRightOf="@+id/logoInsta"
+            android:src="@drawable/facebook"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/logoGugol"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toRightOf="@+id/logoFacebook"
+            android:src="@drawable/gugol"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/logoTwitter"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toRightOf="@+id/logoGugol"
+            android:src="@drawable/twitter"
+            android:scaleType="centerCrop"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

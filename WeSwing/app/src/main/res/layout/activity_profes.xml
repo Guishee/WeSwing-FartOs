@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfesActivity"
+    android:theme="@style/barraroja">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+    <Button
+        android:id="@+id/toCalendar"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/rojo"
+        android:text="calendar"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/recyclerView"/>
+
+</RelativeLayout>

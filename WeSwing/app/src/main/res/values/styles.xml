@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Otros atributos de estilo -->
+
+        <!-- Cambiar el color del botón de retroceso -->
+        <item name="colorControlNormal">#FFFFFF</item> <!-- Color del botón cuando está inactivo -->
+        <item name="colorControlHighlight">#CCCCCC</item> <!-- Color del botón cuando se resalta (pulsado) -->
+    </style>
+    <style name="barraroja" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Otros atributos de estilo -->
+        <item name="colorControlNormal">#FFFFFF</item> <!-- Color del botón cuando está inactivo -->
+        <item name="colorControlHighlight">#CCCCCC</item>
+        <!-- Cambiar el color de fondo de la ActionBar -->
+        <item name="android:background">#577377</item>
+        <item name="android:headerBackground">#a14844</item><!-- Reemplaza #FF0000 con el color que desees -->
+    </style>
+
+</resources>

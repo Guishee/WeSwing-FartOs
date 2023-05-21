@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeSwing</string>
+    <string-array name="opciones_spinner">
+        <item>Bailarín</item>
+        <item>Profesor</item>
+    </string-array>
+</resources>
